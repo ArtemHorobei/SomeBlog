@@ -1,0 +1,20 @@
+.medium-column {
+  width: 33%;
+  padding: 2px;
+  .article-preview {
+    transition: all .45s ease-in-out;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    &:hover {
+      cursor: pointer;
+      color: #f2ffff;
+      opacity: 0.75;
+      top: -5px;
+      box-shadow: 5px 5px #888888;
+    }
+    background-size: cover;
+    background-position: center center;
+  }
+}

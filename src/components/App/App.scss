@@ -1,0 +1,44 @@
+html {
+    min-height: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    background-color: #f2ffff;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Andantino script";
+    src: url("../../fonts/Andantino script.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Obelix Pro";
+    src: url("../../fonts/Obelix Pro.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "jabjai Heavy";
+    src: url("../../fonts/jabjai Heavy.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Usual New Italic";
+    src: url("../../fonts/Usual New Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

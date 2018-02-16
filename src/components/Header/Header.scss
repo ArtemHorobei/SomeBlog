@@ -1,0 +1,61 @@
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  .header-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "jabjai Heavy";
+    font-size: 35px;
+    .author-avatar {
+      width: 45px;
+      height: 45px;
+      margin-right: 5px;
+      border-radius: 50%;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .header-icons-wrap {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    .header-icons-left-area {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      padding-right: 30px;
+      margin-right: 30px;
+      border-right: 1px double lightgray;
+    }
+    .header-icon {
+      transition: all .20s ease-in-out;
+      font-size: 22px;
+      margin-right: 30px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .fa-facebook-official:hover {
+      color: #3b5998;
+    }
+    .fa-twitter:hover {
+      color: dodgerblue;
+    }
+    .fa-instagram:hover {
+      color: #bf3322;
+    }
+    .fa-telegram:hover {
+      color: #3a79ee;
+    }
+    .additional-icons:hover {
+      color: gray;
+    }
+  }
+}
