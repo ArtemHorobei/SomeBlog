@@ -1,6 +1,18 @@
 .post-page-wrap {
   // padding: 15px;
+  .post-page-content-wrap {
+    width: 50%;
+    padding: 30px 0;
+    margin: auto;
+    line-height: 30px;
+    font-size: 20px;
+    .post-page-content-first-letter {
+      font-size: 60px;
+      font-weight: bold;
+    }
+  }
   .post-page-header-parallax {
+    position: relative;
     background-image: url(http://myth.mtdemo.wpengine.com/wp-content/uploads/sites/28/2015/05/summer-1600x1067.jpg);
     height: 700px;
     opacity: 1;
@@ -11,5 +23,30 @@
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
+    .post-page-header-title-wrap {
+      bottom: 0;
+      position: absolute;
+      padding: 45px;
+      // font-family: 'Adobe Garamond Bold Italic';
+      font-size: 35px;
+      color: white;
+      text-shadow: #323232;
+      ul {
+        margin: auto;
+        list-style: none;
+        padding: 0;
+        .li-description {
+          font-family: 'Adobe Garamond Bold Italic';
+          color: white;
+          font-size: 40px;
+          padding: 10px;
+        }
+        .li-info {
+          color: lightgray;
+          font-size: 20px;
+          padding: 10px;
+        }
+      }
+    }
   }
 }
