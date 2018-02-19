@@ -8,22 +8,22 @@ const MainPage = () => {
     return (
         <div className="main-page-wrap">
             <div className="container">
-                <BigArticle backgroundImage="url(https://static.pexels.com/photos/534164/pexels-photo-534164.jpeg)" />
+                <BigArticle backgroundImage="url(https://espanarusa.com/files/autoupload/85/82/91/gbwyvltx383441.jpg)" />
                 <div className="small-column">
                     <SmallArticle backgroundImage='url(https://static.pexels.com/photos/449462/pexels-photo-449462.jpeg)'/>
-                    <SmallArticle backgroundImage='url(https://static.pexels.com/photos/442645/pexels-photo-442645.jpeg)'/>
+                    <SmallArticle backgroundImage='url(https://imgclf.112.ua/original/2015/03/04/136224.jpg)'/>
                 </div>
             </div>
             <div className="container">
                 <div className="small-column">
-                    <SmallArticle backgroundImage='url(https://static.pexels.com/photos/1966/field-summer-agriculture-harvest.jpg)'/>
-                    <SmallArticle backgroundImage='url(https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1451703942000/photosp/b9025f6b-2a51-4795-b173-0167f733f2ea/stock-photo-pattern-rainbow-abstract-curtain-textile-texture-wallpaper-color-fabric-b9025f6b-2a51-4795-b173-0167f733f2ea.jpg)'/>
+                    <SmallArticle backgroundImage='url(https://www.gastronom.ru/binfiles/images/20151218/b9579cc2.jpg)'/>
+                    <SmallArticle backgroundImage='url(http://tvk6.ru/upload/iblock/263/263f28241026c2caedfa98b78debe199.jpg)'/>
                 </div>
-                <BigArticle backgroundImage="url(https://www.wallpaperup.com/uploads/wallpapers/2013/12/15/196200/f2c43e4304abcbd78e81c243a33bfb54-1000.jpg)" />
+                <BigArticle backgroundImage="url(http://znay-pravo.ru/wp-content/uploads/2016/12/kak-poluchit-litsenziyu-na-travmat.jpg)" />
             </div>
             <div className="container">
-                <BigArticle backgroundImage="url(http://icloudpicture.com/wp-content/uploads/2017/08/Beautiful-Nature-Wallpapers.jpg)" />
-                <MediumArticle backgroundImage="url(http://ua.today/images/news/2016/%D0%98%D1%8E%D0%BB%D1%8C/03/111.jpg)" />
+                <BigArticle backgroundImage="url(https://lifehacker.ru/special/meat/images/b64968bd-a3c5-4abb-89bc-3119a98fcdde__shutterstock_307201295.jpg)" />
+                <MediumArticle backgroundImage="url(https://wallpaperscraft.ru/image/specnaz_28_nedel_spustya_oruzhie_m4_avtomat_28_weeks_later_3825_640x960.jpg)" />
             </div>
             <div className="info-footer-wrap">
                 <div className="info-footer-title">

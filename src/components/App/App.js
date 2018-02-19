@@ -2,7 +2,7 @@ import './App.scss';
 import { Switch, Route  } from 'react-router';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
-import HelpPage from '../../components/HelpPage';
+import PostPage from '../../components/PostPage';
 import MainPage from '../../components/MainPage';
 import React from 'react';
 
@@ -12,7 +12,7 @@ const App = () => {
             <Header/>
             <Switch>
                 <Route exact path='/' component={MainPage}/>
-                <Route path='/help' component={HelpPage}/>
+                <Route path='/post/:id' component={PostPage}/>
             </Switch>
             <Footer/>
         </div>

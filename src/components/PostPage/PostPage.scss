@@ -1,0 +1,14 @@
+.post-page-wrap {
+  padding: 15px;
+  .post-page-header-parallax {
+    height: 700px;
+    opacity: 1;
+    -webkit-transition: opacity 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out;
+    transition: opacity 300ms ease-out;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
