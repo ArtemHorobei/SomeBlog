@@ -23,7 +23,7 @@ $github: #000000;
   }
   .post-page-header-parallax {
     position: relative;
-    background-image: url(http://myth.mtdemo.wpengine.com/wp-content/uploads/sites/28/2015/05/summer-1600x1067.jpg);
+    background-image: url(https://lifehacker.ru/special/meat/images/b64968bd-a3c5-4abb-89bc-3119a98fcdde__shutterstock_307201295.jpg);
     height: 700px;
     opacity: 1;
     -moz-transform: translate3d(0,0,0);
@@ -44,6 +44,7 @@ $github: #000000;
         margin: auto;
         list-style: none;
         padding: 0;
+        text-shadow: 1px 1px 1px black;
         .li-description {
           font-family: 'Adobe Garamond Bold Italic';
           color: white;
@@ -129,8 +130,6 @@ $github: #000000;
           opacity: 1;
           transition: all 0.45s ease-in-out;
           margin: 0 -20px;
-          // border: 1px solid black;
-          // box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1);
           &:nth-child(1) {
             border-top-left-radius: 40px;
             border-bottom-left-radius: 40px;
