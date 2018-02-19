@@ -1,5 +1,6 @@
 import './Header.scss';
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
     constructor (props) {
@@ -13,8 +14,12 @@ class Header extends Component {
         return (
             <div className="header-wrap">
                 <div className="header-author">
-                    <div><img className="author-avatar" src="https://pbs.twimg.com/media/CNxmAaBUYAAngyq.jpg" alt="avatar"/></div>
-                    <div><span>Art Midborn</span></div>
+                    <div>
+                        <Link to="/">
+                            <img className="author-avatar" src="https://pbs.twimg.com/media/CNxmAaBUYAAngyq.jpg" alt="avatar"/>
+                        </Link>
+                    </div>
+                    <div><Link style={{ textDecoration: 'none', color: 'black' }} to="/"><span>Art Midborn</span></Link></div>
                 </div>
                 <div className="header-icons-wrap">
                     <div className="header-icons-left-area">
