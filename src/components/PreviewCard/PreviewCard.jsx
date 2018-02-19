@@ -1,5 +1,6 @@
 import './PreviewCard.scss';
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class PreviewCard extends Component {
     constructor (props) {
@@ -15,8 +16,8 @@ class PreviewCard extends Component {
                     <li className="preview-card-text-date">march 1, 1995</li>
                     <li className="preview-card-text-description">The history of Liverpool can be traced back to 1190</li>
                     <li className="preview-card-button-more">
-                        <a>
-                            <span className="text">More...</span>
+                        <a className="link">
+                            <span className="text"><Link to="/post/1">More...</Link></span>
                             <span className="line -right"/>
                             <span className="line -top"/>
                             <span className="line -left"/>

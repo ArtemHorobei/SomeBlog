@@ -31,7 +31,7 @@
       $pad : 0.3em;
       $extra : calc(#{$pad} * 1.2);
       $color : black;
-      a {
+      a.link {
         cursor: pointer;
         color: black;
         transform: translate3d(-50%,-50%,0);
@@ -60,6 +60,10 @@
                   right 0.2s cubic-bezier(.04,.48,0,1) 0.6s,
                   left 0.4s cubic-bezier(.04,.48,0,1) 0.6s;
           transform-origin: left;
+        }
+        a {
+          color: #000;
+          text-decoration: none
         }
       }
       .line {
