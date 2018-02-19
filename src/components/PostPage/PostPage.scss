@@ -1,3 +1,12 @@
+$backgroundColor: #f2ffff;
+$buttonColor: #f2ffff;
+$textColor: #f1ce64;
+$hoverColor: #f2ffff;
+$facebook: #3B5998;
+$twitter: #61c5ec;
+$google: #ea4335;
+$github: #000000;
+
 .post-page-wrap {
   // padding: 15px;
   .post-page-content-wrap {
@@ -6,7 +15,7 @@
     margin: auto;
     line-height: 30px;
     font-size: 20px;
-    .post-page-content-first-letter {
+    &:first-letter {
       font-size: 60px;
       font-weight: bold;
     }
@@ -27,7 +36,6 @@
       bottom: 0;
       position: absolute;
       padding: 45px;
-      // font-family: 'Adobe Garamond Bold Italic';
       font-size: 35px;
       color: white;
       text-shadow: #323232;
@@ -45,6 +53,108 @@
           color: lightgray;
           font-size: 20px;
           padding: 10px;
+        }
+      }
+    }
+  }
+  .post-page-author-wrap {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:after, &:before {
+      content: '';
+      display: block;
+      width: 73px;
+      margin: 0 auto;
+      height: 1px;
+      border-top: 1px solid #242427;
+    }
+    .post-page-author-ul {
+      text-align: center;
+      width: 50%;
+      list-style: none;
+      padding: 0;
+      margin: 25px 0;
+      li {
+        padding: 10px 0;
+      }
+      .author-avatar {
+        height: 110px;
+        width: 110px;
+        border-radius: 50%;
+      }
+      .share {
+        position: relative;
+        span {
+          width: 200px;
+          line-height: 60px;
+          display: inline-block;
+          font-weight: 700;
+          text-transform: uppercase;
+          position: absolute;
+          left: 50%;
+          margin-left: -100px;
+          opacity: 1;
+          border: 1px solid black;
+          border-radius: 50px;
+          transition: opacity 0.3s ease-in-out;
+          pointer-events: none;
+        }
+        nav {
+          font-size: 0;
+        }
+        a {
+          line-height: 60px;
+          width: 60px;
+          text-align: center;
+          display: inline-block;
+          background-color: $buttonColor;
+          color: $buttonColor;
+          overflow: hidden;
+          opacity: 1;
+          transition: all 0.3s ease-in-out;
+          margin: 0 -20px;
+          // border: 1px solid black;
+          // box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1);
+          &:nth-child(1) {
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px;
+            margin-left: 0;
+            &:hover {
+              background-color: $twitter;
+            }
+          }
+          &:nth-child(2):hover {
+            background-color: $facebook;
+          }
+          &:nth-child(3):hover {
+            background-color: $google;
+          }
+          &:nth-child(4){
+            border-top-right-radius: 40px;
+            border-bottom-right-radius: 40px;
+            margin-right: 0;
+            &:hover {
+              background-color: $github;
+            }
+          }
+        }
+        &:hover, &.hover {
+          span {
+            opacity: 0;
+          }
+          a {
+            border-radius: 50%;
+            margin: 0 10px;
+            color: $textColor;
+            font-size: 28px;
+            &:hover {
+              cursor: pointer;
+              color: $hoverColor;
+            }
+          }
         }
       }
     }
