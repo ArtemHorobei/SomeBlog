@@ -25,7 +25,7 @@ class PostPage extends Component {
                     <div className="post-page-header-title-wrap">
                         <ul>
                             <li className="li-description">The history of Liverpool can be traced back to 1190</li>
-                            <li className="li-info">MAY 14, 2015 / 3 COMMENTS / BY CLARE SMITH</li>
+                            <li className="li-info">JANUARY 14, 2018 / 3 COMMENTS / BY Vlad Vasilenko</li>
                         </ul>
                     </div>
                 </div>
@@ -47,11 +47,11 @@ class PostPage extends Component {
                         <li>
                             <img className="author-avatar" src="https://pbs.twimg.com/media/CNxmAaBUYAAngyq.jpg" alt="avatar"/>
                         </li>
-                        <li>
-                            Posts by <span>Vlad Vasilenko</span>
-                        </li>
-                        <li>
-                            My name is Artem and I'm a serial blogger. I love life and more than anything in the whole wide world, I love taking photographs. Oh and did I mention, that I quite like blogging?
+                        <li className="post-page-author-li">
+                            <div className="post-page-author-li-post-by">
+                                Post by
+                            </div>
+                            <span className="post-page-author-li-name">Vlad Vasilenko</span>
                         </li>
                         <li>
                             <div className="share">
