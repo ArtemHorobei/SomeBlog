@@ -1,5 +1,5 @@
 import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
-import { REQUEST_HELLO_WORLD, RECEIVE_HELLO_WORLD } from './actions';
+import { REQUEST_HELLO_WORLD, RECEIVE_HELLO_WORLD } from '../actions/actions';
 
 function* helloWorld (action) {
     try {

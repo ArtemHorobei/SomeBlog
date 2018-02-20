@@ -2,7 +2,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import MainPage from './MainPage.jsx';
 import React from 'react';
-import { requestHelloWorld } from '../../actions';
+import { requestHelloWorld } from '../../actions/actions';
 
 const MainPageContainer = (props) => <MainPage {...props} />;
 

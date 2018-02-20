@@ -1,4 +1,4 @@
-import { RECEIVE_HELLO_WORLD } from '../actions';
+import { RECEIVE_HELLO_WORLD } from '../actions/actions';
 
 export default (state = '', { type, text }) => {
     switch (type) {
