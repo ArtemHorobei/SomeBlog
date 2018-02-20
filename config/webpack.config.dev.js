@@ -19,6 +19,7 @@ const env = getClientEnvironment(publicUrl);
 module.exports = {
   devtool: 'cheap-module-source-map',
   entry: [
+    'babel-polyfill',
     require.resolve('react-dev-utils/webpackHotDevClient'),
     require.resolve('./polyfills'),
     require.resolve('react-error-overlay'),
@@ -113,9 +114,7 @@ module.exports = {
               },
             ],
           },
-          { test: /\.scss$/,
-            use: [{ loader: "style-loader" }, { loader: "css-loader" }, { loader: "sass-loader" }]
-          },
+          { test: /\.scss$/, use: [{ loader: "style-loader" }, { loader: "css-loader" }, { loader: "sass-loader" }]},
           { test: /\.gif$/, use: [{loader: 'url-loader', options: {limit: 10000, mimetype: 'image/gif'}}] },
           { test: /\.jpg$/, use: [{loader: 'url-loader', options: {limit: 10000, mimetype: 'image/jpg'}}] },
           { test: /\.png$/, use: [{loader: 'url-loader', options: {limit: 10000, mimetype: 'image/png'}}] },
