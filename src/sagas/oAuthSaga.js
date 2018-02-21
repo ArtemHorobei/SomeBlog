@@ -1,10 +1,10 @@
 import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
 import { REQUEST_OAUTH_SIGN_IN, receiveOAuthSignIn } from '../actions/actions';
-import { fetchSignUp } from '../api/api';
+import { requestSignIn } from '../api/api';
 
 function* oAuthSignIn () {
     try {
-        const data = yield call(fetchSignUp);
+        const data = yield call(requestSignIn);
         yield put(receiveOAuthSignIn(data));
     } catch (e) {
         console.log(e);
