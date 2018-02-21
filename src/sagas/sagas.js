@@ -1,18 +1,16 @@
 import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
-import { REQUEST_HELLO_WORLD, RECEIVE_HELLO_WORLD } from '../actions/actions';
+import { REQUEST_API_DATA, receiveApiData } from '../actions/actions';
+import { fetchData } from '../api/api';
 
-function* helloWorld (action) {
+function* getApiData (action) {
     try {
-        yield put ({
-            type: RECEIVE_HELLO_WORLD,
-            text: 'Hello world from redux saga' });
+        const data = yield call(fetchData);
+        yield put (receiveApiData(data));
     } catch (e) {
-        yield put ({
-            type: RECEIVE_HELLO_WORLD,
-            text: 'Hello world from redux saga' });
+        console.log(e);
     }
 }
 
 export default function* mySaga () {
-    yield takeLatest (REQUEST_HELLO_WORLD, helloWorld)
+    yield takeLatest (REQUEST_API_DATA, getApiData)
 }

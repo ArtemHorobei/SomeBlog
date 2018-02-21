@@ -9,11 +9,20 @@ class MainPage extends React.Component {
         super(props);
     }
     componentDidMount () {
-        this.props.requestHelloWorld();
+        this.props.requestApiData();
     }
+    person = (person, i) => {
+        return <div key={person.id.value}>
+            <h1>{person.gender}</h1>
+            <h1>{person.name.first}</h1>
+            <h1>{person.name.last}</h1>
+        </div>
+    };
     render () {
+        const { results = [] } = this.props.data;
         return (
             <div className="main-page-wrap">
+                {results.map(this.person)}
                 <div className="container">
                     <BigArticle backgroundImage="url(https://espanarusa.com/files/autoupload/85/82/91/gbwyvltx383441.jpg)" />
                     <div className="small-column">
