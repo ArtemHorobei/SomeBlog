@@ -1,9 +1,7 @@
-export const fetchData = async () => {
-    try {
-        const response = await fetch('https://randomuser.me/api');
-        const data = await response.json();
-        return data;
-    } catch (e) {
-        console.log(e)
-    }
+import axios from 'axios';
+
+export const fetchSignUp = () => {
+    return axios.post('http://localhost:3002/auth/sign_in', {email: 'a@a.ru', password: 'aa123456'}).then((res) => {
+        return res.data.data;
+    });
 };
