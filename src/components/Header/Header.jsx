@@ -23,7 +23,7 @@ class Header extends Component {
                 </div>
                 <div className="header-icons-wrap">
                     <div className="header-icons-left-area">
-                        <i onClick={this.props.requestOAuthSignUp.bind(this, 'facebook')} className="header-icon fa fa-facebook-official"/>
+                        <i onClick={this.props.requestOAuthSignIn.bind(this, 'facebook')} className="header-icon fa fa-facebook-official"/>
                         <i className="header-icon fa fa-twitter"/>
                         <i className="header-icon fa fa-instagram"/>
                         <i className="header-icon fa fa-telegram"/>

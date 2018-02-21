@@ -1,5 +1,5 @@
-export const REQUEST_OAUTH_SIGN_UP = 'REQUEST_OAUTH_SIGN_UP';
-export const RECEIVE_OAUTH_SIGN_UP = 'RECEIVE_OAUTH_SIGN_UP';
+export const REQUEST_OAUTH_SIGN_IN = 'REQUEST_OAUTH_SIGN_IN';
+export const RECEIVE_OAUTH_SIGN_IN = 'RECEIVE_OAUTH_SIGN_IN';
 
-export const requestOAuthSignUp = (data) => ({ type: REQUEST_OAUTH_SIGN_UP, data });
-export const receiveOAuthSignUp = (data) => ({ type: RECEIVE_OAUTH_SIGN_UP, data });
+export const requestOAuthSignIn = (data) => ({ type: REQUEST_OAUTH_SIGN_IN, data });
+export const receiveOAuthSignIn = (data) => ({ type: RECEIVE_OAUTH_SIGN_IN, data });
