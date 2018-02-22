@@ -1,11 +1,15 @@
 import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
 import { REQUEST_OAUTH_SIGN_IN, receiveOAuthSignIn } from '../actions/actions';
+import Cookies from 'js-cookie';
 import { requestSignIn } from '../api/api';
 
 function* oAuthSignIn () {
     try {
         const data = yield call(requestSignIn);
-        yield put(receiveOAuthSignIn(data));
+        if (data && data.headers) {
+            Cookies.set('session', data.headers);
+            yield put(receiveOAuthSignIn(data.data.data));
+        }
     } catch (e) {
         console.log(e);
     }

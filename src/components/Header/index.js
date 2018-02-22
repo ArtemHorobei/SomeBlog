@@ -5,10 +5,16 @@ import { requestOAuthSignIn } from '../../actions/actions';
 
 const HeaderContainer = (props) => <Header {...props} />;
 
+function mapStateToProps (state) {
+    return {
+        userInfo: state.userInfo ? state.userInfo : null
+    };
+}
+
 function mapDispatchToProps (dispatch) {
     return {
         requestOAuthSignIn: (data) => dispatch(requestOAuthSignIn(data))
     };
 }
 
-export default connect(null, mapDispatchToProps)(HeaderContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(HeaderContainer);
