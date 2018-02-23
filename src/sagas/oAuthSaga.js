@@ -15,9 +15,9 @@ function* oAuthSignIn () {
     }
 }
 
-function* validateToken () {
+function* validateToken (headers) {
     try {
-        const data = yield call(requestValidateToken);
+        const data = yield call(requestValidateToken(headers));
         if (data && data.headers) {
             Cookies.set('session', data.headers);
             yield put(receiveValidateToken(data.data.data));
