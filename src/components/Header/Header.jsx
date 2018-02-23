@@ -12,15 +12,8 @@ class Header extends Component {
         };
     }
     render () {
-        const headerInfo = _.isEmpty(this.props.userInfo)
+        const headerInfo = this.props.isSIgnIn
             ? <div className="header-author">
-                <div>
-                    <Link style={{ textDecoration: 'none', color: 'black' }} to="/">
-                        <span>Blog</span>
-                    </Link>
-                </div>
-            </div>
-            : <div className="header-author">
                 <div>
                     <Link to="/">
                         <img className="author-avatar" src="https://pbs.twimg.com/media/CNxmAaBUYAAngyq.jpg" alt="avatar"/>
@@ -30,6 +23,13 @@ class Header extends Component {
                     <Link style={{ textDecoration: 'none', color: 'black' }} to="/">
                         <span>{ this.props.userInfo.first_name } </span>
                         <span>{ this.props.userInfo.last_name }</span>
+                    </Link>
+                </div>
+            </div>
+            : <div className="header-author">
+                <div>
+                    <Link style={{ textDecoration: 'none', color: 'black' }} to="/">
+                        <span>Blog</span>
                     </Link>
                 </div>
             </div>;

@@ -7,7 +7,8 @@ const HeaderContainer = (props) => <Header {...props} />;
 
 function mapStateToProps (state) {
     return {
-        userInfo: state.userInfo ? state.userInfo : null
+        isSIgnIn: state.userInfo ? state.userInfo.signIn : null,
+        userInfo: state.userInfo ? state.userInfo.user : null
     };
 }
 

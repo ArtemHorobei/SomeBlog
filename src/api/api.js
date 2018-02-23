@@ -5,3 +5,9 @@ export const requestSignIn = () => {
         return res;
     });
 };
+
+export const requestValidateToken = (headers) => {
+    return axios.get('http://localhost:3002/auth/validate_token', headers).then((res) => {
+        return res;
+    });
+};
