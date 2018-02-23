@@ -5,7 +5,7 @@ const initialState = {user: {}, signIn: false};
 export default (state = initialState, { type, data }) => {
     switch (type) {
         case RECEIVE_OAUTH_SIGN_IN:
-            return {...state, user: data, signIn: true};
+            return {user: data, signIn: true};
         default:
             return state
     }

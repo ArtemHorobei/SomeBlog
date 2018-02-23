@@ -15,12 +15,12 @@ function* oAuthSignIn () {
     }
 }
 
-function* validateToken (headers) {
+function* validateToken () {
     try {
-        const data = yield call(requestValidateToken(headers));
+        const data = yield call(requestValidateToken);
         if (data && data.headers) {
             Cookies.set('session', data.headers);
-            yield put(receiveValidateToken(data.data.data));
+            yield put(receiveOAuthSignIn(data.data.data));
         }
     } catch (e) {
         console.log(e);
