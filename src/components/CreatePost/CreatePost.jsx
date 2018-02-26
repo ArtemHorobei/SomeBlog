@@ -1,4 +1,5 @@
 import './CreatePost.scss';
+import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 import { Collapse } from 'reactstrap';
 import React from 'react';
 
@@ -12,48 +13,15 @@ class CreatePost extends React.Component {
     render () {
         return (
             <div className="create-post-wrap">
-                <span className="create-post-text-open" onClick={this.toggle}>Create post</span>
+                <span onClick={this.toggle} className="button-create-post button-create-post-dynamic-hover">CREATE POST</span>
                 <Collapse isOpen={this.state.collapse}>
-                    Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit,
-                    enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                    anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident.
+                   <form className="create-post-form-wrap">
+                       <div className="create-post-items">
+                           <input type="text" className="create-post-input" placeholder="Title of post"/>
+                           <input type="text" className="create-post-input" placeholder="Content"/>
+                       </div>
+                       <button type="submit">Create post</button>
+                   </form>
                 </Collapse>
             </div>
         )

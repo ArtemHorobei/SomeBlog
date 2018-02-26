@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c1178a24-9dbd-46ec-ab61-115b993a99b5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App/App.js" afterPath="$PROJECT_DIR$/src/components/App/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Articles/BigArticle/BigArticle.scss" afterPath="$PROJECT_DIR$/src/components/Articles/BigArticle/BigArticle.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" afterPath="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.scss" afterPath="$PROJECT_DIR$/src/components/MainPage/MainPage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CreatePost/CreatePost.jsx" afterPath="$PROJECT_DIR$/src/components/CreatePost/CreatePost.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CreatePost/CreatePost.scss" afterPath="$PROJECT_DIR$/src/components/CreatePost/CreatePost.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,18 +16,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainPage.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/MainPage/MainPage.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CreatePost/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,8 +29,8 @@
       <file leaf-file-name="CreatePost.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CreatePost/CreatePost.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="380">
+              <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -55,38 +41,8 @@
       <file leaf-file-name="CreatePost.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/CreatePost/CreatePost.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPage.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/MainPage/MainPage.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BigArticle.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Articles/BigArticle/BigArticle.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BigArticle.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Articles/BigArticle/BigArticle.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="200">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -95,18 +51,18 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Footer.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.jsx">
+      <file leaf-file-name="App.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/App/App.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="380">
+              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -116,17 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>connect</find>
-      <find>getApiData</find>
-      <find>authSaga</find>
-      <find>m</find>
-      <find>mySaga</find>
-      <find>requestOAuthSignUp</find>
-      <find>requestOAuthSignU</find>
-      <find>requestOAuthSign</find>
-      <find>requestOAuthSignI</find>
-      <find>requestOAuthSignIn</find>
-      <find>requesOAuthSignIn</find>
       <find>requeOAuthSignIn</find>
       <find>requOAuthSignIn</find>
       <find>reqOAuthSignIn</find>
@@ -146,7 +91,21 @@
       <find>validateToken</find>
       <find>requestValidateToken</find>
       <find>container</find>
+      <find>preview-card-text-description</find>
+      <find>preview-card-w</find>
+      <find>preview-card-wr</find>
+      <find>preview-card-wra</find>
+      <find>preview-card-wrap</find>
+      <find>t</find>
+      <find>trans</find>
+      <find>transi</find>
+      <find>transit</find>
+      <find>transiti</find>
+      <find>transition</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/node_modules/bootstrap/dist</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -199,10 +158,10 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Articles/BigArticle/BigArticle.scss" />
         <option value="$PROJECT_DIR$/src/components/MainPage/MainPage.scss" />
-        <option value="$PROJECT_DIR$/src/components/App/App.js" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.jsx" />
         <option value="$PROJECT_DIR$/src/components/CreatePost/index.js" />
         <option value="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" />
+        <option value="$PROJECT_DIR$/src/components/App/App.js" />
         <option value="$PROJECT_DIR$/src/components/CreatePost/CreatePost.jsx" />
         <option value="$PROJECT_DIR$/src/components/CreatePost/CreatePost.scss" />
       </list>
@@ -572,7 +531,7 @@
       <workItem from="1519197072569" duration="27117000" />
       <workItem from="1519394826710" duration="4898000" />
       <workItem from="1519400384099" duration="882000" />
-      <workItem from="1519626733488" duration="8370000" />
+      <workItem from="1519626733488" duration="18893000" />
     </task>
     <task id="LOCAL-00001" summary="Add Single post page">
       <created>1519029883985</created>
@@ -721,11 +680,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519635091351</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add component create post">
+      <created>1519650131099</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1519650131099</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154456000" />
+    <option name="totallyTimeSpent" value="164979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -775,7 +741,8 @@
     <MESSAGE value="Sign in validate token function" />
     <MESSAGE value="Session done" />
     <MESSAGE value="add reactstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="add reactstrap" />
+    <MESSAGE value="add component create post" />
+    <option name="LAST_COMMIT_MESSAGE" value="add component create post" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -891,13 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1088,14 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -1125,7 +1077,7 @@
         <state relative-caret-position="40">
           <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1138,10 +1090,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CreatePost/CreatePost.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="54" />
+        <state relative-caret-position="380">
+          <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -1150,8 +1118,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CreatePost/CreatePost.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
