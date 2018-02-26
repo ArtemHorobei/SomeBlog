@@ -1,5 +1,6 @@
 import './MainPage.scss';
 import BigArticle from '../Articles/BigArticle';
+import { Button } from 'reactstrap';
 import MediumArticle from '../Articles/MediumArticle';
 import React from 'react';
 import SmallArticle from '../Articles/SmallArticle';
@@ -11,6 +12,7 @@ class MainPage extends React.Component {
     render () {
         return (
             <div className="main-page-wrap">
+                <Button color="primary">primary</Button>{' '}
                 <div className="container">
                     <BigArticle backgroundImage="url(https://espanarusa.com/files/autoupload/85/82/91/gbwyvltx383441.jpg)" />
                     <div className="small-column">
