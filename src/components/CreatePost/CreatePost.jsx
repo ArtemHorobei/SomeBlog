@@ -17,8 +17,13 @@ class CreatePost extends React.Component {
                 <Collapse isOpen={this.state.collapse}>
                    <form className="create-post-form-wrap">
                        <div className="create-post-items">
-                           <input type="text" className="create-post-input" placeholder="Title of post"/>
-                           <input type="text" className="create-post-input" placeholder="Content"/>
+                           <a className="cool-link">
+                               <input type="text" className="create-post-input" placeholder="Title of post"/>
+                           </a>
+                           <a className="cool-link">
+                               <input type="text" className="create-post-input" placeholder="Content"/>
+                           </a>
+
                        </div>
                        <button type="submit">Create post</button>
                    </form>
