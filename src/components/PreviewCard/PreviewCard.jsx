@@ -14,7 +14,7 @@ class PreviewCard extends Component {
             <div ref={(div) => { this.wrap = div }} className="preview-card-wrap">
                 <ul className="preview-card-item">
                     <li className="preview-card-text-date">march 1, 1995</li>
-                    <li className="preview-card-text-description">The history of Liverpool can be traced back to 1190</li>
+                    <li className="preview-card-text-description">Liverpool can be traced back to 1190</li>
                     <li className="preview-card-button-more">
                         <a className="link">
                             <span className="text"><Link to="/post/1">More...</Link></span>

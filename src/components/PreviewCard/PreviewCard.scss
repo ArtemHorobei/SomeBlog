@@ -1,8 +1,8 @@
 .preview-card-wrap {
   margin: auto;
   padding: 15px 5px;
-  width: 45%;
-  height: 45%;
+  width: 65%;
+  height: 55%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,10 +10,14 @@
   opacity: 0.8;
   border-radius: 5px;
   .preview-card-item {
-    margin: auto;
+    margin: 0 auto;
     list-style: none;
     padding: 0;
     text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .preview-card-text-date {
       text-transform: uppercase;
       color: #323232;

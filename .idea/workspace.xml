@@ -5,6 +5,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CreatePost/CreatePost.jsx" afterPath="$PROJECT_DIR$/src/components/CreatePost/CreatePost.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CreatePost/CreatePost.scss" afterPath="$PROJECT_DIR$/src/components/CreatePost/CreatePost.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.jsx" afterPath="$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.scss" afterPath="$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +31,8 @@
       <file leaf-file-name="CreatePost.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CreatePost/CreatePost.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+            <state relative-caret-position="360">
+              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -38,11 +40,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreatePost.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreatePost.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CreatePost/CreatePost.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreviewCard.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreviewCard.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -72,7 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>requeOAuthSignIn</find>
       <find>requOAuthSignIn</find>
       <find>reqOAuthSignIn</find>
       <find>reOAuthSignIn</find>
@@ -102,6 +123,7 @@
       <find>transit</find>
       <find>transiti</find>
       <find>transition</find>
+      <find>preview-card-button-more</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/node_modules/bootstrap/dist</dir>
@@ -130,8 +152,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/PostPage/index.js" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.scss" />
-        <option value="$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.jsx" />
-        <option value="$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.scss" />
         <option value="$PROJECT_DIR$/src/components/App/App.scss" />
         <option value="$PROJECT_DIR$/src/components/PostPage/PostPage.scss" />
         <option value="$PROJECT_DIR$/src/components/PostPage/PostPage.jsx" />
@@ -164,6 +184,8 @@
         <option value="$PROJECT_DIR$/src/components/App/App.js" />
         <option value="$PROJECT_DIR$/src/components/CreatePost/CreatePost.jsx" />
         <option value="$PROJECT_DIR$/src/components/CreatePost/CreatePost.scss" />
+        <option value="$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.scss" />
+        <option value="$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.jsx" />
       </list>
     </option>
   </component>
@@ -234,6 +256,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreviewCard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -531,7 +575,7 @@
       <workItem from="1519197072569" duration="27117000" />
       <workItem from="1519394826710" duration="4898000" />
       <workItem from="1519400384099" duration="882000" />
-      <workItem from="1519626733488" duration="20254000" />
+      <workItem from="1519626733488" duration="23237000" />
     </task>
     <task id="LOCAL-00001" summary="Add Single post page">
       <created>1519029883985</created>
@@ -694,11 +738,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519661347123</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add style to create post component">
+      <created>1519713335044</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1519713335044</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166340000" />
+    <option name="totallyTimeSpent" value="169323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -749,7 +800,8 @@
     <MESSAGE value="Session done" />
     <MESSAGE value="add reactstrap" />
     <MESSAGE value="add component create post" />
-    <option name="LAST_COMMIT_MESSAGE" value="add component create post" />
+    <MESSAGE value="add style to create post component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add style to create post component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -844,20 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="1382" column="0" lean-forward="false" selection-start-line="1382" selection-start-column="0" selection-end-line="1382" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1115,8 +1153,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CreatePost/CreatePost.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+        <state relative-caret-position="360">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -1125,8 +1163,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CreatePost/CreatePost.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="240">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PreviewCard/PreviewCard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>

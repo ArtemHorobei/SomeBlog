@@ -23,9 +23,8 @@ class CreatePost extends React.Component {
                            <a className="cool-link">
                                <input type="text" className="create-post-input" placeholder="Content"/>
                            </a>
-
                        </div>
-                       <button type="submit">Create post</button>
+                       <button type="submit" className="animated-button thar-three">Create</button>
                    </form>
                 </Collapse>
             </div>

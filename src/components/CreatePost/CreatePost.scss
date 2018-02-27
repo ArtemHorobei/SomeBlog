@@ -1,70 +1,6 @@
 .create-post-wrap {
   padding: 15px;
   text-align: center;
-  .create-post-form-wrap {
-    padding: 15px;
-    .create-post-items {
-      display: flex;
-      flex-direction: column;
-      width: 25%;
-      margin: auto;
-      .create-post-input {
-        width: 100%;
-        border: none;
-        padding: 5px;
-        outline: none;
-      }
-      .cool-link {
-        margin: 10px 0;
-        display: inline-block;
-        color: #000;
-        text-decoration: none;
-        &::after {
-          content: '';
-          display: block;
-          width: 0;
-          height: 2px;
-          background: #000;
-          transition: width .3s;
-        }
-        &:hover::after {
-          width: 100%;
-          transition: width .6s;
-        }
-      }
-    }
-    .a.animated-button.thar-two {
-      color: #fff;
-      cursor: pointer;
-      display: block;
-      position: relative;
-      border: 2px solid #F7CA18;
-      transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-    }
-    a.animated-button.thar-two:hover {
-      color: #000 !important;
-      background-color: transparent;
-      text-shadow: ntwo;
-    }
-    a.animated-button.thar-two:hover:before {
-      top: 0%;
-      bottom: auto;
-      height: 100%;
-    }
-    a.animated-button.thar-two:before {
-      display: block;
-      position: absolute;
-      left: 0px;
-      bottom: 0px;
-      height: 0px;
-      width: 100%;
-      z-index: -1;
-      content: '';
-      color: #000 !important;
-      background: #F7CA18;
-      transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-    }
-  }
   .button-create-post {
     box-sizing: inherit;
     transition-property: all;
@@ -76,7 +12,6 @@
     font-size:16px;
     font-weight: 400;
     line-height: 45px;
-    // margin: 0 auto 2em;
     max-width: 315px;
     position: relative;
     text-decoration: none;
@@ -127,5 +62,74 @@
     bottom: auto;
     top: 0;
     width: 70%;
+  }
+  .create-post-form-wrap {
+    padding: 15px;
+    .create-post-items {
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      margin: 20px auto;
+      .create-post-input {
+        width: 100%;
+        border: none;
+        padding: 5px;
+        outline: none;
+      }
+      .cool-link {
+        margin: 10px 0;
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+        &::after {
+          content: '';
+          display: block;
+          width: 0;
+          height: 2px;
+          background: #000;
+          transition: width .3s;
+        }
+        &:hover::after {
+          width: 100%;
+          transition: width .6s;
+        }
+      }
+    }
+    .animated-button.thar-three {
+      letter-spacing: 2.5px;
+      background: none;
+      width: 120px;
+      height: 40px;
+      margin: auto;
+      color: #000;
+      cursor: pointer;
+      display: block;
+      position: relative;
+      border: 2px solid #000;
+      transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    .animated-button.thar-three:hover {
+      color: #fff !important;
+      background-color: transparent;
+      text-shadow: nthree;
+    }
+    .animated-button.thar-three:hover:before {
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+    .animated-button.thar-three:before {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 0;
+      z-index: -1;
+      content: '';
+      color: #fff !important;
+      background: #000;
+      transition: all .7s cubic-bezier(0.42, 0, 0.58, 1);
+    }
   }
 }
