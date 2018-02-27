@@ -106,7 +106,7 @@
       display: block;
       position: relative;
       border: 2px solid #000;
-      transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+      transition: all 0.1s cubic-bezier(0.42, 0, 0.58, 1);
     }
     .animated-button.thar-three:hover {
       color: #fff !important;
@@ -129,7 +129,7 @@
       content: '';
       color: #fff !important;
       background: #000;
-      transition: all .7s cubic-bezier(0.42, 0, 0.58, 1);
+      transition: all .2s cubic-bezier(0.42, 0, 0.58, 1);
     }
   }
 }
