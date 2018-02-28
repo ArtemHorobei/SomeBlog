@@ -17,7 +17,7 @@ class PreviewCard extends Component {
                     <li className="preview-card-text-description">Liverpool can be traced back to 1190</li>
                     <li className="preview-card-button-more">
                         <a className="link">
-                            <span className="text"><Link to="/post/1">More...</Link></span>
+                            <Link to="/post/1"><button className="slide left">&nbsp;</button></Link>
                             <span className="line -right"/>
                             <span className="line -top"/>
                             <span className="line -left"/>
