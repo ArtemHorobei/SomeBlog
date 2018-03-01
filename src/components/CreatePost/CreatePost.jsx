@@ -1,5 +1,4 @@
 import './CreatePost.scss';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 import { Collapse } from 'reactstrap';
 import React from 'react';
 
@@ -8,6 +7,10 @@ class CreatePost extends React.Component {
         super(props);
         this.toggle = this.toggle.bind(this);
         this.state = { collapse: false };
+    }
+    handleClickSendPost (e) {
+        // this.props.
+        e.preventDefault();
     }
     toggle () { this.setState({ collapse: !this.state.collapse }) }
     render () {
@@ -24,7 +27,7 @@ class CreatePost extends React.Component {
                                <input type="text" className="create-post-input" placeholder="Content"/>
                            </a>
                        </div>
-                       <button type="submit" className="animated-button thar-three">Create</button>
+                       <button onClick={this.handleClickSendPost} type="submit" className="animated-button thar-three">Create</button>
                    </form>
                 </Collapse>
             </div>

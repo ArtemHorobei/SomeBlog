@@ -6,9 +6,6 @@ import React from 'react';
 import SmallArticle from '../Articles/SmallArticle';
 
 class MainPage extends React.Component {
-    constructor (props) {
-        super(props);
-    }
     render () {
         return (
             <div className="main-page-wrap">

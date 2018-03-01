@@ -3,9 +3,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class PreviewCard extends Component {
-    constructor (props) {
-        super(props);
-    }
     componentDidMount () {
         this.wrap.classList += ' bounceInUp animated';
     }
