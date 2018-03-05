@@ -7,10 +7,10 @@ class CreatePost extends React.Component {
         super(props);
         this.toggle = this.toggle.bind(this);
         this.state = { collapse: false };
+        this.handleClickSendPost = this.handleClickSendPost.bind(this);
     }
-    handleClickSendPost (e) {
-        // this.props.
-        e.preventDefault();
+    handleClickSendPost () {
+        this.props.requestCreatePost();
     }
     toggle () { this.setState({ collapse: !this.state.collapse }) }
     render () {
@@ -27,8 +27,8 @@ class CreatePost extends React.Component {
                                <input type="text" className="create-post-input" placeholder="Content"/>
                            </a>
                        </div>
-                       <button onClick={this.handleClickSendPost} type="submit" className="animated-button thar-three">Create</button>
                    </form>
+                    <button onClick={this.handleClickSendPost} type="submit" className="animated-button thar-three">Create</button>
                 </Collapse>
             </div>
         )

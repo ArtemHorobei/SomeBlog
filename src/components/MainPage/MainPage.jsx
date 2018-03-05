@@ -6,6 +6,12 @@ import React from 'react';
 import SmallArticle from '../Articles/SmallArticle';
 
 class MainPage extends React.Component {
+    constructor (props) {
+        super(props);
+    }
+    componentWillMount () {
+        this.props.requestGetPosts();
+    }
     render () {
         return (
             <div className="main-page-wrap">
@@ -26,7 +32,7 @@ class MainPage extends React.Component {
                 </div>
                 <div className="wrap-container">
                     <BigArticle backgroundImage="url(https://lifehacker.ru/special/meat/images/b64968bd-a3c5-4abb-89bc-3119a98fcdde__shutterstock_307201295.jpg)" />
-                    <MediumArticle backgroundImage="url(https://wallpaperscraft.ru/image/specnaz_28_nedel_spustya_oruzhie_m4_avtomat_28_weeks_later_3825_640x960.jpg)" />
+                    <MediumArticle backgroundImage="url(https://images.britcdn.com/wp-content/uploads/2018/01/Gal-Gadot-PGA-2018.jpg?fit=max&w=1440)" />
                 </div>
             </div>
         );

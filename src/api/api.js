@@ -8,8 +8,22 @@ export const requestSignIn = () => {
 };
 
 export const requestValidateToken = () => {
-    const data = Cookies.get('session');
-    return axios.get('http://localhost:3002/auth/validate_token', { headers: JSON.parse(data) }).then((res) => {
+    const cookieHeaders = Cookies.get('session');
+    return axios.get('http://localhost:3002/auth/validate_token', { headers: JSON.parse(cookieHeaders) }).then((res) => {
+        return res;
+    });
+};
+
+export const requestGetPosts = () => {
+    const cookieHeaders = Cookies.get('session');
+    return axios.get('http://localhost:3002/api/v1/posts', { headers: JSON.parse(cookieHeaders) }).then((res) => {
+        return res;
+    });
+};
+
+export const requestCreatePost = () => {
+    const cookieHeaders = Cookies.get('session');
+    return axios.post('http://localhost:3002/api/v1/posts', {title: 'Title', content: 'Content'}, { headers: JSON.parse(cookieHeaders) }).then((res) => {
         return res;
     });
 };

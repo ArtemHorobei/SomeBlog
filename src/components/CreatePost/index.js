@@ -1,3 +1,14 @@
-import CreatePost from './CreatePost';
+import { connect } from 'react-redux';
+import CreatePost from './CreatePost.jsx';
+import React from 'react';
+import { requestCreatePost } from '../../actions/actions';
 
-export default CreatePost;
+const CreatePostContainer = (props) => <CreatePost {...props} />;
+
+function mapDispatchToProps (dispatch) {
+    return {
+        requestCreatePost: () => dispatch(requestCreatePost())
+    };
+}
+
+export default connect(null, mapDispatchToProps)(CreatePostContainer);

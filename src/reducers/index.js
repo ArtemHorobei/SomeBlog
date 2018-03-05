@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import userInfo from './userInfo';
-import headers from './headers';
+import userInfo from './userReducer';
+import headers from './headersReducer';
+import posts from './postsReducer';
 
 export default combineReducers({
     userInfo,
-    headers
+    headers,
+    posts
 });

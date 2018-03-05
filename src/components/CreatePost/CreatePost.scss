@@ -95,41 +95,42 @@
         }
       }
     }
-    .animated-button.thar-three {
-      letter-spacing: 2.5px;
-      background: none;
-      width: 120px;
-      height: 40px;
-      margin: auto;
-      color: #000;
-      cursor: pointer;
-      display: block;
-      position: relative;
-      border: 2px solid #000;
-      transition: all 0.1s cubic-bezier(0.42, 0, 0.58, 1);
-    }
-    .animated-button.thar-three:hover {
-      color: #fff !important;
-      background-color: transparent;
-      text-shadow: nthree;
-    }
-    .animated-button.thar-three:hover:before {
-      left: 0;
-      right: auto;
-      width: 100%;
-    }
-    .animated-button.thar-three:before {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-      width: 0;
-      z-index: -1;
-      content: '';
-      color: #fff !important;
-      background: #000;
-      transition: all .2s cubic-bezier(0.42, 0, 0.58, 1);
-    }
+  }
+  .animated-button.thar-three {
+    letter-spacing: 2.5px;
+    background: none;
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: 2px solid #000;
+    transition: all 0.1s cubic-bezier(0.42, 0, 0.58, 1);
+  }
+  .animated-button.thar-three:hover {
+    color: #fff !important;
+    background-color: transparent;
+    text-shadow: nthree;
+  }
+  .animated-button.thar-three:hover:before {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+  .animated-button.thar-three:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    z-index: -1;
+    content: '';
+    color: #fff !important;
+    background: #000;
+    transition: all .2s cubic-bezier(0.42, 0, 0.58, 1);
   }
 }
