@@ -25,7 +25,7 @@ class MainPage extends React.Component {
                 </div>
                 <div className="wrap-container">
                     <div className="small-column">
-                        <SmallArticle backgroundImage='url(https://www.gastronom.ru/binfiles/images/20151218/b9579cc2.jpg)'/>
+                        <SmallArticle backgroundImage='url(http://ps4n.ru/wp-content/uploads/2016/08/the-division-movie.jpg)'/>
                         <SmallArticle backgroundImage='url(http://tvk6.ru/upload/iblock/263/263f28241026c2caedfa98b78debe199.jpg)'/>
                     </div>
                     <BigArticle backgroundImage="url(http://znay-pravo.ru/wp-content/uploads/2016/12/kak-poluchit-litsenziyu-na-travmat.jpg)" />
