@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1178a24-9dbd-46ec-ab61-115b993a99b5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Articles/BigArticle/BigArticle.scss" afterPath="$PROJECT_DIR$/src/components/Articles/BigArticle/BigArticle.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Articles/MediumArticle/MediumArticle.scss" afterPath="$PROJECT_DIR$/src/components/Articles/MediumArticle/MediumArticle.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Articles/SmallArticle/SmallArticle.scss" afterPath="$PROJECT_DIR$/src/components/Articles/SmallArticle/SmallArticle.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" afterPath="$PROJECT_DIR$/src/components/MainPage/MainPage.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sagas/postsSaga.js" afterPath="$PROJECT_DIR$/src/sagas/postsSaga.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,8 +62,8 @@
       <file leaf-file-name="MediumArticle.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Articles/MediumArticle/MediumArticle.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="320">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -672,7 +668,7 @@
       <workItem from="1520322319771" duration="1252000" />
       <workItem from="1520404636648" duration="515000" />
       <workItem from="1520405751032" duration="1490000" />
-      <workItem from="1520421713732" duration="1239000" />
+      <workItem from="1520421713732" duration="1876000" />
     </task>
     <task id="LOCAL-00001" summary="Add Single post page">
       <created>1519029883985</created>
@@ -884,11 +880,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520264475915</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Add new animation hover article">
+      <created>1520424052002</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1520424052002</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198999000" />
+    <option name="totallyTimeSpent" value="199636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -942,7 +945,8 @@
     <MESSAGE value="add style to create post component" />
     <MESSAGE value="fix style preview card and create post" />
     <MESSAGE value="Add function get posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add function get posts" />
+    <MESSAGE value="Add new animation hover article" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new animation hover article" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1290,8 +1294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Articles/MediumArticle/MediumArticle.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="320">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
