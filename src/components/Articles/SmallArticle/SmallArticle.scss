@@ -1,4 +1,5 @@
 .article-preview {
+  background-size: 120%;
   transition: all .45s ease-in-out;
   position: relative;
   height: 49%;
@@ -6,13 +7,11 @@
   flex-direction: column;
   justify-content: space-between;
   &:hover {
+    background-size: 100%;
     transition: all .45s ease-in-out;
     cursor: pointer;
     color: #f2ffff;
     opacity: 0.75;
-    top: -5px;
-    box-shadow: 5px 5px #888888;
   }
-  background-size: cover;
   background-position: center center;
 }

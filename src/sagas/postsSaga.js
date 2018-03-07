@@ -8,7 +8,7 @@ function* getPostsSaga () {
         const data = yield call(requestGetPosts);
         if (data && data.headers) {
             Cookies.set('session', data.headers);
-            yield put(receiveGetPosts(data.data.posts));
+            yield put(receiveGetPosts(data.data.data.posts));
         }
     } catch (e) {
         console.log(e);

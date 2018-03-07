@@ -10,7 +10,7 @@ class MainPage extends React.Component {
         super(props);
     }
     componentWillMount () {
-        this.props.requestGetPosts();
+        // this.props.requestGetPosts();
     }
     render () {
         return (
