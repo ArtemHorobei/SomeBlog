@@ -2,19 +2,19 @@
   width: 33%;
   padding: 2px;
   .article-preview {
-    background-size: 190%;
+    background-size: 165%;
+    background-repeat: no-repeat;
     transition: all .35s ease-in-out;
     position: relative;
     height: 100%;
     display: flex;
     justify-content: space-between;
     &:hover {
-      background-size: 165%;
+      background-size: 185%;
       background-repeat: no-repeat;
       cursor: pointer;
       color: #f2ffff;
       opacity: 0.75;
     }
-    background-position: center center;
   }
 }
