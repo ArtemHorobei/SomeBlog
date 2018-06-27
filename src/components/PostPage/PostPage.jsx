@@ -2,28 +2,23 @@ import './PostPage.scss';
 import React, { Component } from 'react';
 
 class PostPage extends Component {
-    constructor (props) {
-        super(props);
-        this.parallaxScroll = this.parallaxScroll.bind(this);
-        this.scrollHandler = this.scrollHandler.bind(this);
-    }
-    componentDidMount () {
+    componentDidMount() {
         this.parallaxScroll();
     }
-    parallaxScroll () {
-        window.addEventListener('scroll', this.scrollHandler);
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.scrollHandler);
     }
-    scrollHandler () {
+    parallaxScroll = () => {
+        window.addEventListener('scroll', this.scrollHandler);
+    };
+    scrollHandler = () => {
         const scrolled = window.pageYOffset || document.documentElement.scrollTop;
         const elHeaderImage = document.getElementById('parallax1');
         const elHeaderDescription = document.getElementsByClassName('post-page-header-title-wrap')[0];
-        elHeaderImage.setAttribute('style', `background-position: 50% ${(0 - (scrolled * .25))}px`);
+        elHeaderImage.setAttribute('style', `background-position: 50% ${(0 - (scrolled * 0.25))}px`);
         elHeaderDescription.setAttribute('style', `opacity: ${scrolled === 0 ? 1 : 1 - scrolled * 0.0025}`);
-    }
-    componentWillUnmount () {
-        window.removeEventListener('scroll', this.scrollHandler);
-    }
-    render () {
+    };
+    render() {
         return (
             <div className="post-page-wrap">
                 <div id="parallax1" className="post-page-header-parallax">

@@ -1,19 +1,19 @@
 import { connect } from 'react-redux';
-import MainPage from './MainPage.jsx';
 import React from 'react';
+import MainPage from './MainPage.jsx';
 import { requestGetPosts } from '../../actions/actions';
 
-const MainPageContainer = (props) => <MainPage {...props} />;
+const MainPageContainer = props => <MainPage {...props} />;
 
-function mapStateToProps (state) {
+function mapStateToProps(state) {
     return {
-        data: state.data
+        data: state.data,
     };
 }
 
-function mapDispatchToProps (dispatch) {
+function mapDispatchToProps(dispatch) {
     return {
-        requestGetPosts: () => dispatch(requestGetPosts())
+        requestGetPosts: () => dispatch(requestGetPosts()),
     };
 }
 

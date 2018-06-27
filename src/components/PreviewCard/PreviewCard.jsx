@@ -3,18 +3,20 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class PreviewCard extends Component {
-    componentDidMount () {
+    componentDidMount() {
         this.wrap.classList += ' bounceInUp animated';
     }
-    render () {
+    render() {
         return (
-            <div ref={(div) => { this.wrap = div }} className="preview-card-wrap">
+            <div ref={(div) => { this.wrap = div; }} className="preview-card-wrap">
                 <ul className="preview-card-item">
                     <li className="preview-card-text-date">march 1, 1995</li>
                     <li className="preview-card-text-description">Liverpool can be traced back to 1190</li>
                     <li className="preview-card-button-more">
                         <a className="link">
-                            <Link to="/post/1"><button className="slide left">&nbsp;</button></Link>
+                            <Link to="/post/1">
+                                <button className="slide left">&nbsp;</button>
+                            </Link>
                             <span className="line -right"/>
                             <span className="line -top"/>
                             <span className="line -left"/>
@@ -32,7 +34,7 @@ class PreviewCard extends Component {
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }
 

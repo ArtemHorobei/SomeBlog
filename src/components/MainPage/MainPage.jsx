@@ -1,18 +1,20 @@
 import './MainPage.scss';
+import React from 'react';
+import PropTypes from 'prop-types';
 import BigArticle from '../Articles/BigArticle';
 import CreatePost from '../CreatePost';
 import MediumArticle from '../Articles/MediumArticle';
-import React from 'react';
 import SmallArticle from '../Articles/SmallArticle';
 
+const propTypes = {
+    requestGetPosts: PropTypes.func.isRequired,
+};
+
 class MainPage extends React.Component {
-    constructor (props) {
-        super(props);
-    }
-    componentWillMount () {
+    componentWillMount() {
         this.props.requestGetPosts();
     }
-    render () {
+    render() {
         return (
             <div className="main-page-wrap">
                 <CreatePost/>
@@ -38,5 +40,7 @@ class MainPage extends React.Component {
         );
     }
 }
+
+MainPage.propTypes = propTypes;
 
 export default MainPage;

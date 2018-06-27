@@ -4,9 +4,9 @@ const initialState = {};
 
 export default (state = initialState, { type, data }) => {
     switch (type) {
-        case RECEIVE_UPDATE_HEADERS:
-            return data;
-        default:
-            return state
+    case RECEIVE_UPDATE_HEADERS:
+        return data;
+    default:
+        return state;
     }
 };

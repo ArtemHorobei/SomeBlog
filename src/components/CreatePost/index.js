@@ -1,13 +1,13 @@
+import React from 'react';
 import { connect } from 'react-redux';
 import CreatePost from './CreatePost.jsx';
-import React from 'react';
 import { requestCreatePost } from '../../actions/actions';
 
-const CreatePostContainer = (props) => <CreatePost {...props} />;
+const CreatePostContainer = props => <CreatePost {...props} />;
 
-function mapDispatchToProps (dispatch) {
+function mapDispatchToProps(dispatch) {
     return {
-        requestCreatePost: () => dispatch(requestCreatePost())
+        requestCreatePost: () => dispatch(requestCreatePost()),
     };
 }
 
